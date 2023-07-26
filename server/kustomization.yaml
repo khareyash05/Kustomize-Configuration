@@ -1,0 +1,5 @@
+commonLabels:
+  app : myword
+resources:
+  - mongo-app.yaml
+  - mongo-config.yaml

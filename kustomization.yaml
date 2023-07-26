@@ -1,0 +1,5 @@
+commonLabels:
+  client : google
+resources:
+  - web-app.yaml
+  - secret.yaml
