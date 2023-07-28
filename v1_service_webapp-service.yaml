@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    client: google
+  name: webapp-service
+spec:
+  ports:
+  - nodePort: 30100
+    port: 8081
+    protocol: TCP
+    targetPort: 8081
+  selector:
+    app: webapp
+    client: google
+  type: NodePort

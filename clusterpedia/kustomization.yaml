@@ -1,0 +1,6 @@
+resources:
+  - clusterpedia_apiserver_apiservice.yaml
+  - clusterpedia_apiserver_deployment.yaml
+
+commonLabels:
+  owner : "yash"
